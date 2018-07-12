@@ -1,4 +1,4 @@
 FROM openjdk:8-jre-alpine
-ADD target/sms-docker.jar sms-docker.jar
+ADD target/gs-messaging-jms.jar sms.jar
 EXPOSE 8081
-ENTRYPOINT ["java", "-jar", "sms-docker.jar"]
+ENTRYPOINT ["java", "-jar", "sms.jar"]

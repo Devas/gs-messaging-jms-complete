@@ -78,7 +78,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
-        <finalName>sms-docker</finalName>
+        <finalName>sms</finalName>
     </build>
 
 </project>

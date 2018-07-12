@@ -9,5 +9,8 @@
         <module name="gs-messaging-jms" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="gs-messaging-jms" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
